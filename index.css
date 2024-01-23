@@ -1,0 +1,86 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font: 1.5rem 'Oswald', sans-serif ;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    background-image: radial-gradient( white lightgray);
+}
+header,footer{
+    position: sticky;
+}
+header,footer{
+    background-color: darkslategray;
+    color: azure;
+    text-align: center;
+}
+header{
+    top: 0;
+}
+nav{
+    background-color: whitesmoke;
+    padding: 0.5rem;
+    border-bottom: 5px ;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bolder;
+}
+nav a{
+    text-decoration: none;
+}
+nav a,nav a:visited{
+    color:burlywood;
+}
+nav a:hover,nav a:focus{
+    color: blueviolet;
+}
+main{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    gap: 1.5rem;
+}
+footer{
+    bottom:;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    border:2px ;
+    padding:1rem ;
+    width: min(100%,1400px);
+    scroll-margin-top:8rem ;
+}
+.card figure{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.card img {
+    border-radius: 50%;
+    border: 5px solid green;
+}
+.card figcaption{
+    text-align: center;
+    font-weight: bolder;
+    margin: 1rem;
+    font-size: 2rem;    
+}
+{
+    
+}
